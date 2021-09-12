@@ -11,12 +11,22 @@ var listsRouter = require('./routes/lists');
 var app = express();
 
 app.locals.con = mysql.createConnection( {
-  host: "localhost",
-  port: "8889",
-  user: "todoUser",
-  password: "todoUser",
-  database: "todo"
+  host: "eu-cdbr-west-01.cleardb.com",
+  user: "ba152ba3547b4e",
+  password: "6f0da12e",
+  database: "heroku_5bbbbdc798c6ee3"
 });
+
+mysql://ba152ba3547b4e:6f0da12e@eu-cdbr-west-01.cleardb.com/heroku_5bbbbdc798c6ee3?reconnect=true
+
+
+// app.locals.con = mysql.createConnection( {
+//   host: "localhost",
+//   port: "8889",
+//   user: "todoUser",
+//   password: "todoUser",
+//   database: "todo"
+// });
 
 app.use(logger('dev'));
 app.use(express.json());
