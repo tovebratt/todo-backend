@@ -17,7 +17,7 @@ app.locals.con = mysql.createConnection( {
   database: "heroku_5bbbbdc798c6ee3"
 });
 
-//dasd
+
 
 // mysql://ba152ba3547b4e:6f0da12e@eu-cdbr-west-01.cleardb.com/heroku_5bbbbdc798c6ee3?reconnect=true
 
