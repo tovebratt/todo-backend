@@ -9,5 +9,5 @@ Kör backend:
 
 Databasen är mySQL
 
-Frontend live via Github: 
-Backend live via heroku:
+Frontend live: https://tovebratt-todo.herokuapp.com/
+Backend live: https://tove-bratt-todo-backend.herokuapp.com/lists/items
