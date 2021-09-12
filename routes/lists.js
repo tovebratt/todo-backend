@@ -26,6 +26,7 @@ router.get("/items", function (req, res) {
 
 router.post("/additem", function (req, res) {
 
+
   req.app.locals.con.connect(function (err) {
     if (err) {
       console.log(err);
